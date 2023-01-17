@@ -7,50 +7,153 @@
     <title>BootStrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css" />
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container-fluid">
         <div class="row flex-nowrap">
-            <div class="col-auto px-10 py-3 bg-primary">
-                <div class="d-flex flex-column align-items-center  text-white min-vh-100">
-                    <a href="#" class="d-flex align-items-center  text-white text-decoration-none" >
+            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-primary sidebar">
+                <div class="d-flex flex-column text-white min-vh-100">
+                    <a href="#" class="d-flex align-items-center text-white text-decoration-none p-3 " >
                         <span class="fs-2">Assignment</span>
                     </a>
-                    <ul class="nav nav-pills flex-column align-items-center">
+                    <ul class="nav nav-pills flex-column align-items-start pt-4">
                         <li class="nav-item"> 
-                            <a href="#" class="nav-link text-white align-middle" >
+                            <a href="#" class="nav-link text-white align-items-start list-group-item py-3" >
                                 <i class="fs-4 bi-house-door-fill"></i> <span class="">HOME</span>
                             </a>
                         </li>
                 
                         <li class="nav-item"> 
-                            <a href="#" class="nav-link text-white align-middle" >
+                            <a href="#" class="nav-link text-white align-items-start py-3" >
                                 <i class="fs-4 bi-brush-fill"></i> <span class="">DESIGN</span>
                             </a>
                         </li>
                         <li class="nav-item"> 
-                            <a href="#" class="nav-link text-white align-middle" >
+                            <a href="#" class="nav-link text-white align-items-start py-3" >
                                 <i class="fs-4 bi-share-fill"></i> <span class="">SHARE</span>
                             </a>
                         </li>
                         <li class="nav-item"> 
-                            <a href="#" class="nav-link text-white align-middle" >
+                            <a href="#" class="nav-link text-white align-items-start py-3" >
                                 <i class="fs-4 bi-credit-card-fill"></i> <span class="">PAYMENTS</span>
                             </a>
                         </li>
                         <li class="nav-item"> 
-                            <a href="#" class="nav-link text-white align-middle" >
+                            <a href="#" class="nav-link text-white align-items-start py-3" >
                                 <i class="fs-4 bi-gear-fill"></i> <span class="">SETTINGS</span>
                             </a>
                         </li>
                     </ul>
-                    
+                    <hr>
+                    <div class="fixed-bottom mb-4 ms-4">
+                        <a href="#" class="d-flex align-items-center text-white text-decoration-none " >
+                            <i class="fs-4 bi-globe2 pe-2"></i> <span class="">SUPPORT</span>
+                        </a>
+                    </div>
                     
                 </div>
             </div>
-            <div class="col py-3">
-                <h3>Payment</h3>
+
+            <div class="col bg-light">
+                <!-- <div class=""> -->
+                        <div class="row flex-nowrap">
+                            <div class="col-8">
+                                <h4>Payments</h4>
+                            </div>
+                            <div class="col-auto d-flex float-end">
+                                <p class="pt-1">Good Evening Kaushal </p><i class="fs-4 bi-person-circle ps-2"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="row gx-5">
+                            <div class="col">
+                             <div class="p-2 border bg-white d-flex flex-row">
+                                <div class="col-6 flex-column ps-2">
+                                <p class="fw-light fs-6 mb-0">TOTAL RECIEVED</p>
+                                <p class="fw-bold fs-2 m-0">84,258.67</p>
+                                <div class="alpha rounded mt-4">
+                                    <p class="text-success">+10% since last month</p>
+                                </div>
+                                </div>
+                                <div class="flex-column ms-5 ps-5 pt-3">
+                                    <p class="fw-light text-primary mb-0">Pending</p>
+                                    <p class="fw-light-bolder mt-0">150000.00</p>
+                                    <p class="fw-light mb-0">In draft</p>
+                                    <p class="fw-light-bolder mt-0">1,000.00</p>
+ 
+                                </div>
+                                
+                             </div>
+                            </div>
+                            <div class="col">
+                              <div class="me-4 p-2 border bg-white">
+                                
+                                <div class="row gx-1">
+                                    <div class="col-9">
+                                     <div class="">
+                                        <p class="fw-bolder">Powered By QuickPay</p>
+                                     </div>
+                                    </div>
+                                    <div class="col-auto">
+                                      <div class="rounded information">
+                                        <div class=""><p class="fw-light text-primary text-end me-2">information</p></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-8 pt-2">
+                                    <p class="fw-light content-info">Quickpay lets you receive payments on the fly.
+                                        <br>
+                                      Easily generate involves that are print-ready or simply
+                                      share payments link via SMS/E-mail to request payment.
+                                    </p>
+                                 </div>
+                              </div>
+
+                            </div>
+                          </div>
+                       
+                          <div class="row gx-5 mt-3">
+                            <div class="col">
+                             <div class="p-2">
+                                 <p class="fw-bold fs-5 mb-0">Invoices</p>
+                                 <p class="fw-light invoice-content">Find your recent transactions below.</p>
+                             </div>
+                            </div>
+                            <div class="col">
+                              <div class="p-2">
+                                <button type="button" class="btn btn-primary custom-btn">+ NEW INVOICE</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row gx-1">
+                            <div class="col-8">
+                                <div class="input-group">
+                                    <input class="form-control" type="search" placeholder="search" id="example-search-input">
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="dropdown">
+                                    <button class="btn btn-light border bg-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      This Week
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Monday</a></li>
+                                      <li><a class="dropdown-item" href="#">TuesDay</a></li>
+                                      <li><a class="dropdown-item" href="#">Wednsday</a></li>
+                                      <li><a class="dropdown-item" href="#">Thrusday</a></li>
+                                      <li><a class="dropdown-item" href="#">Friday</a></li>
+                                      <li><a class="dropdown-item" href="#">Saturday</a></li>
+                                      <li><a class="dropdown-item" href="#">Sunday</a></li>
+                                    </ul>
+                                  </div>
+                            </div>
+                          </div>
+                             
+                        
+                <!-- </div> -->
                 
             </div>
         </div>

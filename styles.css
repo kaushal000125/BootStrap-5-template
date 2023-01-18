@@ -1,43 +1,83 @@
-
-body{
-    background-color: antiquewhite;
+.nav-item:hover {
+  display: block;
+  background-color: #144573ee;
+  border-radius: 100px;
 }
 
-.alpha{
-    color: rgb(34, 180, 34);
-    background-color: rgba(198, 243, 198, 0.854);
-    width: fit-content;
-    margin-top: -3rem;
-    
-   }
-.information{
+.alpha {
+  color: rgb(34, 180, 34);
+  background-color: rgba(198, 243, 198, 0.854);
+  width: fit-content;
+  margin-top: -3rem;
+  font-weight: 200;
+}
+.information {
   color: rgba(17, 180, 234, 0.935);
   background-color: rgba(224, 238, 243, 0.935);
   width: fit-content;
   text-align: center;
   padding-left: 5px;
+  font-weight: 200;
 }
-
 
 .bg-light-green {
-    background-color: lightgreen;
+  background-color: lightgreen;
+}
 
-  }
-  
-  .text-light-green {
-    color:green;
-  }
- 
-.content-info{
+.text-light-green {
+  color: green;
+}
+
+.content-info {
   font-size: small;
 }
-.custom-btn{
+.custom-btn {
   border-radius: 2rem;
   margin-left: 290px;
 }
-.dropdown{
+.dropdown {
   margin-left: 175px;
 }
-.invoice-content{
+.invoice-content {
   font-size: small;
+}
+.badge-note {
+  color: rgb(34, 180, 34);
+  background-color: rgba(198, 243, 198, 0.854);
+  font-weight: 200;
+}
+.text-pending {
+  font-weight: 100;
+  font-size: small;
+}
+.right-container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.table-headrow {
+  text-align: start;
+  font-size: small;
+  font-weight: 500;
+}
+.table {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+/* .row-divider{
+  
+    border-radius: 25px;
+    border: 2px solid;
+    padding: 20px;  
+  } */
+.draft {
+  color: rgba(72, 83, 68, 0.935);
+  background-color: rgba(194, 199, 190, 0.935);
+  width: fit-content;
+  text-align: center;
+  padding-left: 5px;
+  font-weight: 200;
+}
+.received-txt{
+  font-size: small;
+   font-weight: 700;
 }

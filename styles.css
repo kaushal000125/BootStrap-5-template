@@ -1,8 +1,20 @@
 .nav-item:hover {
   display: block;
-  background-color: #144573ee;
+ 
+  background-color: rgba(32, 23, 117, 0.664);
   border-radius: 100px;
 }
+
+
+.navbar-column {
+  width: 20%;
+ }
+ 
+ .navbar-container {
+  position: fixed;
+  width: 19%;
+ }
+
 
 .alpha {
   color: rgb(34, 180, 34);
@@ -63,12 +75,7 @@
   border-collapse: separate;
   border-spacing: 0 10px;
 }
-/* .row-divider{
-  
-    border-radius: 25px;
-    border: 2px solid;
-    padding: 20px;  
-  } */
+
 .draft {
   color: rgba(72, 83, 68, 0.935);
   background-color: rgba(194, 199, 190, 0.935);
@@ -81,3 +88,23 @@
   font-size: small;
    font-weight: 700;
 }
+.sidebar{
+  position: relative;
+  left:0;
+  top:0;
+  bottom:0;
+}
+.span-icon {
+  position: relative;
+  left: 1.8rem;
+  top: 0.4rem;
+ }
+
+.table-row{
+  outline: 1px solid rgba(217, 222, 227, 0.764);
+  
+}
+.table-data{
+   padding-top: 10px;
+}
+ 

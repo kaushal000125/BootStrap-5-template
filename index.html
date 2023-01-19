@@ -32,12 +32,14 @@
   </head>
   <body>
     <div class="container-fluid">
-      <div class="row flex-nowrap">
-        <div class="col-auto bg-primary">
-          <div class="d-flex flex-column text-white min-vh-100">
+      <div class="row">
+        <!------------------------------------->
+        <div class="navbar-container bg-primary sidebar">
+          <!-- <div class="d-flex flex-column text-white min-vh-100"> -->
+            <div class="d-flex flex-column w-100">
             <a
               href="#"
-              class="d-flex align-items-center text-white text-decoration-none p-3"
+              class="d-flex align-items-start text-white text-decoration-none p-3"
             >
               <span class="fs-2">Assignment</span>
             </a>
@@ -48,32 +50,32 @@
                   class="nav-link text-white align-items-start list-group-item py-3"
                 >
                   <i class="fs-4 bi-house-door-fill"></i>
-                  <span class="">HOME</span>
+                  <span class="ps-2">HOME</span>
                 </a>
               </li>
 
               <li class="nav-item w-100">
                 <a href="#" class="nav-link text-white align-items-start py-3">
                   <i class="fs-4 bi-brush-fill"></i>
-                  <span class="">DESIGN</span>
+                  <span class="ps-2">DESIGN</span>
                 </a>
               </li>
               <li class="nav-item w-100">
                 <a href="#" class="nav-link text-white align-items-start py-3">
                   <i class="fs-4 bi-share-fill"></i>
-                  <span class="">SHARE</span>
+                  <span class="ps-2">SHARE</span>
                 </a>
               </li>
               <li class="nav-item w-100">
                 <a href="#" class="nav-link text-white align-items-start py-3">
                   <i class="fs-4 bi-credit-card-fill"></i>
-                  <span class="">PAYMENTS</span>
+                  <span class="ps-2">PAYMENTS</span>
                 </a>
               </li>
               <li class="nav-item w-100">
                 <a href="#" class="nav-link text-white align-items-start py-3">
                   <i class="fs-4 bi-gear-fill"></i>
-                  <span class="">SETTINGS</span>
+                  <span class="ps-2">SETTINGS</span>
                 </a>
               </li>
             </ul>
@@ -164,15 +166,16 @@
             </div>
           </div>
           <div class="row gx-1">
-            <div class="col-8">
-              <div class="input-group">
+            <div class="col-8 d-flex search-container">
+              <span class="span-icon">
+                  <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                </span>
+           
                 <input
-                  class="form-control"
+                  class="form-control ps-5 input"
                   type="search"
-                  placeholder="search"
-                  id="example-search-input"
+                  placeholder="Search Invoices"    
                 />
-              </div>
             </div>
             <div class="col-auto">
               <div class="dropdown">
@@ -210,127 +213,119 @@
                 </tr>
               </thead>
               <tbody>
-                <tr class="bg-white rounded-3 row-divider">
-                  <td class="mb-3">
-                    <p class="fw-light-bolder align-items-center">
-                      # JB20210730003
+                <tr class="bg-white rounded-3 table-row">
+                  <td clas="">
+                    <p class="fw-light-bolder table-data">
+                      #JB20210730003
                     </p>
                   </td>
                   <td>
-                    <p class="fw-light-bolder">July 30,2021</p>
-                  </td>
-                  <td class="fw-light-bolder">
-                    <p>Biskoot Pvt. Ltd</p>
-                  </td>
-                  <td class="fw-light-bolder">
-                    <p>10,000.00</p>
+                    <p class="fw-light-bolder table-data">July 30,2021</p>
                   </td>
                   <td>
-                    <span class="badge information rounded-pill">Pending</span>
+                    <p class="fw-light-bolder table-data">Biskoot Pvt. Ltd</p>
+                  </td>
+                  <td>
+                    <p class="fw-light-bolder  table-data">10,000.00</p>
+                  </td>
+                  <td>
+                  <div class="table-data">
+                    <span class="badge information rounded-pill pt-1 ps-1">Pending</span>
+                  </div>
                   </td>
                 </tr>
-                <tr class="borde bg-white m-3">
+                <tr class="bg-white rounded-3 table-row">
                   <td>
-                    <p class="fw-light-bolder"># JB20210730002</p>
-                  </td>
-                  <td>
-                    <p class="fw-light-bolder">July 30,2021</p>
-                  </td>
-                  <td class="fw-light-bolder">
-                    <p>Gajendra</p>
-                  </td>
-                  <td class="fw-light-bolder">
-                    <p>5,000.00</p>
+                    <p class="fw-light-bolder table-data">#JB20210730002</p>
                   </td>
                   <td>
-                    <span class="badge draft rounded-pill">Draft</span>
+                    <p class="fw-light-bolder table-data">July 30,2021</p>
+                  </td>
+                  <td>
+                    <p class="fw-light-bolder table-data">Gajendra</p>
+                  </td>
+                  <td>
+                    <p class="fw-light-bolder table-data">5,000.00</p>
+                  </td>
+                  <td>
+                    <div class="table-data"><span class="badge draft rounded-pill">Draft</span></div>
                   </td>
                 </tr>
-                <tr class="borde bg-white m-3">
+                
+                <tr class="bg-white rounded-3 table-row">
                   <td>
-                    <p class="fw-light-bolder"># JB20210730001</p>
-                  </td>
-                  <td>
-                    <p class="fw-light-bolder">July 30,2021</p>
-                  </td>
-                  <td class="fw-light-bolder">
-                    <p>Anthony F.</p>
-                  </td>
-                  <td class="fw-light-bolder">
-                    <p>1,000.00</p>
+                    <p class="fw-light-bolder table-data">#JB20210730002</p>
                   </td>
                   <td>
-                    <span class="badge badge-note rounded-pill">Paid</span>
+                    <p class="fw-light-bolder table-data">July 30,2021</p>
+                  </td>
+                  <td>
+                    <p class="fw-light-bolder table-data">Gajendra</p>
+                  </td>
+                  <td>
+                    <p class="fw-light-bolder table-data">5,000.00</p>
+                  </td>
+                  <td>
+                    <div class="table-data"><span class="badge badge-note rounded-pill">Paid</span></div>
                   </td>
                 </tr>
-                <tr class="borde bg-white m-3">
-                    <td>
-                      <p class="fw-light-bolder"># JB20210730001</p>
-                    </td>
-                    <td>
-                      <p class="fw-light-bolder">July 30,2021</p>
-                    </td>
-                    <td class="fw-light-bolder">
-                      <p>Anthony F.</p>
-                    </td>
-                    <td class="fw-light-bolder">
-                      <p>1,000.00</p>
-                    </td>
-                    <td>
-                      <span class="badge badge-note rounded-pill">Paid</span>
-                    </td>
-                  </tr>
-                  <tr class="borde bg-white m-3">
-                    <td>
-                      <p class="fw-light-bolder"># JB20210730001</p>
-                    </td>
-                    <td>
-                      <p class="fw-light-bolder">July 30,2021</p>
-                    </td>
-                    <td class="fw-light-bolder">
-                      <p>Anthony F.</p>
-                    </td>
-                    <td class="fw-light-bolder">
-                      <p>1,000.00</p>
-                    </td>
-                    <td>
-                      <span class="badge badge-note rounded-pill">Paid</span>
-                    </td>
-                  </tr>
-                  <tr class="borde bg-white m-3">
-                    <td>
-                      <p class="fw-light-bolder"># JB20210730001</p>
-                    </td>
-                    <td>
-                      <p class="fw-light-bolder">July 30,2021</p>
-                    </td>
-                    <td class="fw-light-bolder">
-                      <p>Anthony F.</p>
-                    </td>
-                    <td class="fw-light-bolder">
-                      <p>1,000.00</p>
-                    </td>
-                    <td>
-                      <span class="badge badge-note rounded-pill">Paid</span>
-                    </td>
-                  </tr>
-                  <tr class="borde bg-white m-3">
-                    <td>
-                      <p class="fw-light-bolder"># JB20210730001</p>
-                    </td>
-                    <td>
-                      <p class="fw-light-bolder">July 30,2021</p>
-                    </td>
-                    <td class="fw-light-bolder">
-                      <p>Anthony F.</p>
-                    </td>
-                    <td class="fw-light-bolder">
-                      <p>1,000.00</p>
-                    </td>
-                    <td>
-                      <span class="badge badge-note rounded-pill">Paid</span>
-                    </td>
-                  </tr>
+                <tr class="bg-white rounded-3 table-row">
+                  <td clas="">
+                    <p class="fw-light-bolder table-data">
+                      #JB20210730003
+                    </p>
+                  </td>
+                  <td>
+                    <p class="fw-light-bolder table-data">July 30,2021</p>
+                  </td>
+                  <td>
+                    <p class="fw-light-bolder table-data">Biskoot Pvt. Ltd</p>
+                  </td>
+                  <td>
+                    <p class="fw-light-bolder  table-data">10,000.00</p>
+                  </td>
+                  <td>
+                  <div class="table-data">
+                    <span class="badge information rounded-pill pt-1 ps-1">Pending</span>
+                  </div>
+                  </td>
+                </tr>
+                <tr class="bg-white rounded-3 table-row">
+                  <td>
+                    <p class="fw-light-bolder table-data">#JB20210730002</p>
+                  </td>
+                  <td>
+                    <p class="fw-light-bolder table-data">July 30,2021</p>
+                  </td>
+                  <td>
+                    <p class="fw-light-bolder table-data">Gajendra</p>
+                  </td>
+                  <td>
+                    <p class="fw-light-bolder table-data">5,000.00</p>
+                  </td>
+                  <td>
+                    <div class="table-data"><span class="badge draft rounded-pill">Draft</span></div>
+                  </td>
+                </tr>
+                
+                <tr class="bg-white rounded-3 table-row">
+                  <td>
+                    <p class="fw-light-bolder table-data">#JB20210730002</p>
+                  </td>
+                  <td>
+                    <p class="fw-light-bolder table-data">July 30,2021</p>
+                  </td>
+                  <td>
+                    <p class="fw-light-bolder table-data">Gajendra</p>
+                  </td>
+                  <td>
+                    <p class="fw-light-bolder table-data">5,000.00</p>
+                  </td>
+                  <td>
+                    <div class="table-data"><span class="badge badge-note rounded-pill">Paid</span></div>
+                  </td>
+                </tr>
+                
               </tbody>
             </table>
           </div>

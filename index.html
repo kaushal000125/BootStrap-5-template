@@ -31,71 +31,71 @@
     ></script>
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row">
-        <!------------------------------------->
-        <div class="navbar-container bg-primary sidebar">
-          <!-- <div class="d-flex flex-column text-white min-vh-100"> -->
-            <div class="d-flex flex-column w-100">
-            <a
-              href="#"
-              class="d-flex align-items-start text-white text-decoration-none p-3"
-            >
-              <span class="fs-2">Assignment</span>
-            </a>
-            <ul class="nav nav-pills d-flex flex-column align-items-start pt-4">
-              <li class="nav-item w-100">
-                <a
-                  href="#"
-                  class="nav-link text-white align-items-start list-group-item py-3"
-                >
-                  <i class="fs-4 bi-house-door-fill"></i>
-                  <span class="ps-2">HOME</span>
-                </a>
-              </li>
-
-              <li class="nav-item w-100">
-                <a href="#" class="nav-link text-white align-items-start py-3">
-                  <i class="fs-4 bi-brush-fill"></i>
-                  <span class="ps-2">DESIGN</span>
-                </a>
-              </li>
-              <li class="nav-item w-100">
-                <a href="#" class="nav-link text-white align-items-start py-3">
-                  <i class="fs-4 bi-share-fill"></i>
-                  <span class="ps-2">SHARE</span>
-                </a>
-              </li>
-              <li class="nav-item w-100">
-                <a href="#" class="nav-link text-white align-items-start py-3">
-                  <i class="fs-4 bi-credit-card-fill"></i>
-                  <span class="ps-2">PAYMENTS</span>
-                </a>
-              </li>
-              <li class="nav-item w-100">
-                <a href="#" class="nav-link text-white align-items-start py-3">
-                  <i class="fs-4 bi-gear-fill"></i>
-                  <span class="ps-2">SETTINGS</span>
-                </a>
-              </li>
-            </ul>
-
-            <div class="col-auto mt-5 pt-5 ms-3">
+    <div class="container-fluid cont-left">
+      <div class="row flex-nowrap">
+        <!-- <div class="col-auto bg-primary cont-right"> -->
+        <div
+          class="sidebar bg-primary cont-right d-flex flex-column text-white min-vh-100"
+        >
+          <a
+            href="#"
+            class="d-flex align-items-center text-white text-decoration-none p-3"
+          >
+            <span class="fs-2">Assignment</span>
+          </a>
+          <ul class="nav nav-pills d-flex flex-column align-items-start pt-4">
+            <li class="nav-item w-100">
               <a
                 href="#"
-                class="d-flex align-items-center text-white text-decoration-none nav-item"
+                class="nav-link text-white align-items-start list-group-item py-3"
               >
-                <i class="fs-4 bi-globe2 pe-2"></i>
-                <span class="">SUPPORT</span>
+                <i class="fs-4 bi-house-door-fill"></i>
+                <span class="ps-2">HOME</span>
               </a>
-            </div>
+            </li>
+
+            <li class="nav-item w-100">
+              <a href="#" class="nav-link text-white align-items-start py-3">
+                <i class="fs-4 bi-brush-fill"></i>
+                <span class="ps-2">DESIGN</span>
+              </a>
+            </li>
+            <li class="nav-item w-100">
+              <a href="#" class="nav-link text-white align-items-start py-3">
+                <i class="fs-4 bi-share-fill"></i>
+                <span class="ps-2">SHARE</span>
+              </a>
+            </li>
+            <li class="nav-item w-100">
+              <a href="#" class="nav-link text-white align-items-start py-3">
+                <i class="fs-4 bi-credit-card-fill"></i>
+                <span class="ps-2">PAYMENTS</span>
+              </a>
+            </li>
+            <li class="nav-item w-100">
+              <a href="#" class="nav-link text-white align-items-start py-3">
+                <i class="fs-4 bi-gear-fill"></i>
+                <span class="ps-2">SETTINGS</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="col-auto mt-5 pt-5 ps-3">
+            <a
+              href="#"
+              class="d-flex align-items-center text-white text-decoration-none nav-item"
+            >
+              <i class="fs-4 bi-globe2 ps-1 pe-2"></i>
+              <span class="">SUPPORT</span>
+            </a>
           </div>
         </div>
+        <!-- </div> -->
 
-        <div class="col bg-light right-container pt-2">
+        <div class="right-container bg-light right-container pt-2">
           <!-- <div class=""> -->
           <div class="row flex-nowrap">
-            <div class="col-8">
+            <div class="col-8 payment-cont">
               <h4>Payments</h4>
             </div>
             <div class="col-auto d-flex float-end ms-5 ps-5">
@@ -105,7 +105,7 @@
           </div>
 
           <div class="row gx-5">
-            <div class="col">
+            <div class="col total-cont">
               <div class="p-2 bg-white d-flex flex-row">
                 <div class="col-6 flex-column ps-2">
                   <p class="mb-0 received-txt">TOTAL RECIEVED</p>
@@ -157,8 +157,8 @@
                 </p>
               </div>
             </div>
-            <div class="col">
-              <div class="p-2">
+            <div class="col new-in">
+              <div class="pt-2">
                 <button type="button" class="btn btn-primary custom-btn">
                   + NEW INVOICE
                 </button>
@@ -166,16 +166,16 @@
             </div>
           </div>
           <div class="row gx-1">
-            <div class="col-8 d-flex search-container">
+            <div class="search-container col-8 d-flex">
               <span class="span-icon">
-                  <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
-                </span>
-           
-                <input
-                  class="form-control ps-5 input"
-                  type="search"
-                  placeholder="Search Invoices"    
-                />
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+              </span>
+
+              <input
+                class="form-control ps-5 input"
+                type="search"
+                placeholder="Search Invoices"
+              />
             </div>
             <div class="col-auto">
               <div class="dropdown">
@@ -215,9 +215,7 @@
               <tbody>
                 <tr class="bg-white rounded-3 table-row">
                   <td clas="">
-                    <p class="fw-light-bolder table-data">
-                      #JB20210730003
-                    </p>
+                    <p class="fw-light-bolder table-data">#JB20210730003</p>
                   </td>
                   <td>
                     <p class="fw-light-bolder table-data">July 30,2021</p>
@@ -226,12 +224,14 @@
                     <p class="fw-light-bolder table-data">Biskoot Pvt. Ltd</p>
                   </td>
                   <td>
-                    <p class="fw-light-bolder  table-data">10,000.00</p>
+                    <p class="fw-light-bolder table-data">10,000.00</p>
                   </td>
                   <td>
-                  <div class="table-data">
-                    <span class="badge information rounded-pill pt-1 ps-1">Pending</span>
-                  </div>
+                    <div class="table-data">
+                      <span class="badge information rounded-pill pt-1 ps-1"
+                        >Pending</span
+                      >
+                    </div>
                   </td>
                 </tr>
                 <tr class="bg-white rounded-3 table-row">
@@ -248,10 +248,12 @@
                     <p class="fw-light-bolder table-data">5,000.00</p>
                   </td>
                   <td>
-                    <div class="table-data"><span class="badge draft rounded-pill">Draft</span></div>
+                    <div class="table-data">
+                      <span class="badge draft rounded-pill">Draft</span>
+                    </div>
                   </td>
                 </tr>
-                
+
                 <tr class="bg-white rounded-3 table-row">
                   <td>
                     <p class="fw-light-bolder table-data">#JB20210730002</p>
@@ -266,14 +268,14 @@
                     <p class="fw-light-bolder table-data">5,000.00</p>
                   </td>
                   <td>
-                    <div class="table-data"><span class="badge badge-note rounded-pill">Paid</span></div>
+                    <div class="table-data">
+                      <span class="badge badge-note rounded-pill">Paid</span>
+                    </div>
                   </td>
                 </tr>
                 <tr class="bg-white rounded-3 table-row">
                   <td clas="">
-                    <p class="fw-light-bolder table-data">
-                      #JB20210730003
-                    </p>
+                    <p class="fw-light-bolder table-data">#JB20210730003</p>
                   </td>
                   <td>
                     <p class="fw-light-bolder table-data">July 30,2021</p>
@@ -282,12 +284,14 @@
                     <p class="fw-light-bolder table-data">Biskoot Pvt. Ltd</p>
                   </td>
                   <td>
-                    <p class="fw-light-bolder  table-data">10,000.00</p>
+                    <p class="fw-light-bolder table-data">10,000.00</p>
                   </td>
                   <td>
-                  <div class="table-data">
-                    <span class="badge information rounded-pill pt-1 ps-1">Pending</span>
-                  </div>
+                    <div class="table-data">
+                      <span class="badge information rounded-pill pt-1 ps-1"
+                        >Pending</span
+                      >
+                    </div>
                   </td>
                 </tr>
                 <tr class="bg-white rounded-3 table-row">
@@ -304,10 +308,12 @@
                     <p class="fw-light-bolder table-data">5,000.00</p>
                   </td>
                   <td>
-                    <div class="table-data"><span class="badge draft rounded-pill">Draft</span></div>
+                    <div class="table-data">
+                      <span class="badge draft rounded-pill">Draft</span>
+                    </div>
                   </td>
                 </tr>
-                
+
                 <tr class="bg-white rounded-3 table-row">
                   <td>
                     <p class="fw-light-bolder table-data">#JB20210730002</p>
@@ -322,10 +328,11 @@
                     <p class="fw-light-bolder table-data">5,000.00</p>
                   </td>
                   <td>
-                    <div class="table-data"><span class="badge badge-note rounded-pill">Paid</span></div>
+                    <div class="table-data">
+                      <span class="badge badge-note rounded-pill">Paid</span>
+                    </div>
                   </td>
                 </tr>
-                
               </tbody>
             </table>
           </div>
